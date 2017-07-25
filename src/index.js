@@ -1,9 +1,7 @@
-import React, {Component} from 'react'
+import WonderField from './WonderField'
+import WonderForm from './WonderForm'
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
+export {
+  WonderField, 
+  WonderForm
 }

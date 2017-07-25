@@ -1,0 +1,94 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet"');
+
+.ws-form-wrapper {
+  width: 430px;
+  background: #F7F7F7;
+  margin: auto;
+  padding: 60px 55px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.ws-form-content {
+  background: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+
+.ws-form-title {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 20px;  
+}
+
+.ws-form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.ws-form-field label {
+  font-size: 12px;
+}
+
+.ws-form-field input {
+  margin: 5px 0px 10px 0px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  outline: none;
+  font-size: 15px;
+}
+
+.ws-form-field input.error {
+  border: 1px solid #FE9685;
+}
+
+.ws-form-field input.error:focus {
+  border: 1px solid #FE9685;
+}
+
+.ws-form-field input:focus {
+  border-color: #75ACD8;
+}
+
+.ws-form-divider {
+  border: none;
+  background-color: #E3E3E3;
+  height: 1px;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+
+.ws-form-button input{
+  outline: none;
+  border: none;
+  padding: 10px;
+  background: #4E95CD;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ws-form-button input:hover {
+  background: #479ee2;
+}
+
+.ws-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.ws-form-field span {
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  background: #FE9685;
+}
