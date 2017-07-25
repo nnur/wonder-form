@@ -1,8 +1,7 @@
-# Wonderform
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png">
 </p>
+<h1 align="center">Wonderform</h1>
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
   <img alt="" src="https://travis-ci.org/tannerlinsley/react-form.svg?branch=master" />
