@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png | width=100)
+![](https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png)
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
   <img alt="" src="https://travis-ci.org/tannerlinsley/react-form.svg?branch=master" />
