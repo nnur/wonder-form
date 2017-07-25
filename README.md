@@ -1,10 +1,4 @@
-<div align="center">
-  <a href="https://github.com/tannerlinsley/react-form" target="\_parent">
-    <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png" alt="Wonderfom Logo" style="width: 100px;"/>
-  </a>
-  <br />
-  <br />
-</div>
+![](https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png | width=100)
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
   <img alt="" src="https://travis-ci.org/tannerlinsley/react-form.svg?branch=master" />
