@@ -1,6 +1,6 @@
-<center>
+<p align="center">
   <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png">
-</center>
+</p>
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
   <img alt="" src="https://travis-ci.org/tannerlinsley/react-form.svg?branch=master" />
