@@ -1,5 +1,6 @@
+# Wonderform
+
 <p align="center">
-  <h1>Wonderform</h1>
   <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png">
 </p>
 
