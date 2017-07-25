@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/tannerlinsley/react-form" target="\_parent">
-    <img src="https://github.com/tannerlinsley/react-form/raw/master/media/banner.png" alt="React Table Logo" style="width:550px;"/>
+    <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png" alt="Wonderfom Logo" style="width:550px;"/>
   </a>
   <br />
   <br />
