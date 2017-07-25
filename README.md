@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png">
+  <h1>Wonderform</h1>
 </p>
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
