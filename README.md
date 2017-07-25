@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png">
+
 ![](https://raw.githubusercontent.com/nnur/wonder-form/master/demo/src/assets/clown.png)
 
 <a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
