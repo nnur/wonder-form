@@ -3,8 +3,8 @@
 </p>
 <h1 align="center">Wonderform</h1>
 
-<a href="https://travis-ci.org/tannerlinsley/react-form" target="\_parent">
-  <img alt="" src="https://travis-ci.org/tannerlinsley/react-form.svg?branch=master" />
+<a href="https://travis-ci.org/nnur/wonder-form" target="\_parent">
+  <img alt="" src="https://travis-ci.org/nnur/wonder-form.svg?branch=master" />
 </a>
 <a href="https://npmjs.com/package/react-form" target="\_parent">
   <img alt="" src="https://img.shields.io/npm/dm/react-form.svg" />
