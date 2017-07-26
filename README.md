@@ -22,7 +22,7 @@ WonderForm is a really lightweight form building and validation component for Re
 - Comes with validation for common inputs like date, email, etc
 - Easily add custom validations or overwrite default validation
 
-## [Demo](https://react-form.js.org/?selectedKind=2.%20Demos&selectedStory=Kitchen%20Sink&full=0&down=0&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel)
+## [Demo](https://nnur.github.io/wonder-form/)
 
 
 ## Table of Contents
