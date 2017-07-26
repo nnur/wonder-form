@@ -79,30 +79,32 @@ import { WonderForm, WonderField } from 'wonder-form'
 ```
 
 WonderField props:
-prop | type   | description 
------|--------|---------------
-*name | string | Must be a unique identifier for a field
-*type | string | Must be one of the following: 'text', 'email', 'password', 'date', 'fullname', 'submit', 'custom'
-placeholder | string | A normal placeholder
-className | string | A class for the WonderField
-errorMessage | string | An errorMessage to be displayed
-label | string | A label that goes above the input
-required | bool | Makes the field required
-minDate | string | Must be of the format MM/DD/YYYY.
-maxDate | string | Must be of the format MM/DD/YYYY.
-maxLength | number | Minimum length of the field.
-minLength | number | Maximum length of the field
-buttonText | string | For the submit type WonderField
+
+|prop | type   | description |
+|-----|--------|---------------|
+| *name | string | Must be a unique identifier for a field|
+| *type | string | Must be one of the following: 'text', 'email', 'password', 'date', 'fullname', 'submit', 'custom' |
+| placeholder | string | A normal placeholder |
+| className | string | A class for the WonderField |
+| errorMessage | string | An errorMessage to be displayed |
+| label | string | A label that goes above the input |
+| required | bool | Makes the field required |
+| minDate | string | Must be of the format MM/DD/YYYY. |
+| maxDate | string | Must be of the format MM/DD/YYYY. |
+| maxLength | number | Minimum length of the field. |
+| minLength | number | Maximum length of the field |
+| buttonText | string | For the submit type WonderField |
 
 The following table shows which validation props will work for a certain type of input. All other props will be ignored or throw an error.
-type | props   
------|-----------------|
-fullname | required, minLength, maxLength
-text | required, minLength, maxLength
-password | required, minLength, maxLength
-date | required, minDate, maxDate
-email | required
-submit | buttonText
+
+| type | props |  
+|-----|-----------------|
+| fullname | required, minLength, maxLength |
+| text | required, minLength, maxLength |
+| password | required, minLength, maxLength |
+| date | required, minDate, maxDate |
+| email | required |
+| submit | buttonText |
 
 ### Creating a custom WonderField
 
