@@ -42,7 +42,7 @@ $ npm install wonder-form
 ```javascript
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import { WonderForm, WonderField } from '../../src'
+import { WonderForm, WonderField } from 'wonder-form'
 
 class Demo extends Component {
   onSubmit(formContents) {
