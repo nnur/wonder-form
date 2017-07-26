@@ -140,12 +140,13 @@ Pass in a class for the prop 'className' in a WonderField.
 ## WonderForm
 
 WonderForm props:
+
 |prop | type   | description |
 |-----|--------|---------------|
 |children | Array of Objects or an Object | Should be a list of WonderFields|
-|onSubmit | Called whenever the WonderField with type='submit' is clicked. The field values and errors if there are any are passed in|
-|onSuccess | Called when there are no errors in any field in the WonderForm|
-|onError | Called if there are any errors. The field values with errors are passed in.|
+|onSubmit | function | Called whenever the WonderField with type='submit' is clicked. The field values and errors if there are any are passed in|
+|onSuccess | function | Called when there are no errors in any field in the WonderForm|
+|onError | function | Called if there are any errors. The field values with errors are passed in.|
 
 
 #### Scripts
