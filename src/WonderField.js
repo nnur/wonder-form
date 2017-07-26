@@ -42,7 +42,7 @@ WonderField.propTypes = {
   label: PropTypes.string,
   required: PropTypes.bool,
   buttonText: (props, propName, componentName) => {
-    if (props['type'] !== 'submit') {
+    if (props[propName] && props['type'] !== 'submit') {
       return new Error(
         `Prop '${propName}' in component '${componentName}' is not valid unless prop 'type' is 'submit'. Validation failed.`
       );
@@ -66,7 +66,7 @@ WonderField.propTypes = {
   },
   minLength: PropTypes.number,
   maxLength: (props, propName, componentName) => {
-    if (typeof props[propName] != 'number') {
+    if (props[propName] && typeof props[propName] !== 'number') {
       return new Error(
         `Prop '${propName}' in component '${componentName}' is not a valid number. Validation failed.`
       );

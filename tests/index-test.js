@@ -8,15 +8,15 @@ describe('validations', () => {
   describe('date', () => {
     it('should return no error for valid dates', () => {
       const { test } = validations['date'];
-      expect(test('01/27/2017')).toBe(undefined);
-      expect(test('01/27/2017')).toBe(undefined);
-      expect(test('1/27/2017')).toBe(undefined);
+      expect(test('01/27/2017')).toEqual(undefined);
+      expect(test('01/27/2017')).toEqual(undefined);
+      expect(test('1/27/2017')).toEqual(undefined);
 
-      expect(test('02/27/2017')).toBe(undefined);
-      expect(test('2/27/2017')).toBe(undefined);
-      expect(test('11/2/2017')).toBe(undefined);
-      expect(test('11/2/0017')).toBe(undefined);
-      expect(test('11/2/0017')).toBe(undefined);
+      expect(test('02/27/2017')).toEqual(undefined);
+      expect(test('2/27/2017')).toEqual(undefined);
+      expect(test('11/2/2017')).toEqual(undefined);
+      expect(test('11/2/0017')).toEqual(undefined);
+      expect(test('11/2/0017')).toEqual(undefined);
     });
 
     it('should return error of type date for invalid dates', () => {
@@ -81,9 +81,9 @@ describe('validations', () => {
       expect(test('11/2/2017', {minDate: '10/1/2017'})).toEqual(undefined);
     });
 
-    it('should return error if date is equal to minDate', () => {
+    it('should return no error if date is equal to minDate', () => {
       const { test } = validations['date'];
-      expect(test('11/2/2017', {minDate: '11/2/2017'})).toEqual({type: 'minDate'});
+      expect(test('11/2/2017', {minDate: '11/2/2017'})).toEqual(undefined);
     });
 
     it('should return no error if date is equal to maxDate', () => {

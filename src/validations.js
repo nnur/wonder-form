@@ -31,7 +31,7 @@ export default {
   },
 
   'date': {
-    test: (input, {required=false, minDate, maxDate}={}) => {
+    test: (input, {required=false, minDate='', maxDate=''}={}) => {
       let error;
 
       if (required && !input.length) {
@@ -46,10 +46,10 @@ export default {
           if (isNaN(dateInput.getTime()) || dateInput.getUTCDate() != date || (dateInput.getUTCMonth()+1) != month) {
             error = {type: 'date'};
           } else {
-            const minDateObj = new Date(minDate);
-            minDateObj.setHours(0,0,0,0)
-            const maxDateObj = new Date(maxDate);
-            maxDateObj.setHours(0,0,0,0)
+            [month, date, year] = minDate.split('/');
+            const minDateObj = new Date(Date.UTC(year, month - 1, date));
+            [month, date, year] = maxDate.split('/');
+            const maxDateObj = new Date(Date.UTC(year, month - 1, date));       
 
             if (dateInput < minDateObj) {
               error = {type: 'minDate'};

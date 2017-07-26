@@ -30,7 +30,7 @@ export default class WonderForm extends Component {
   handleSubmit(event) {
     event.preventDefault();
     const nextFields = this.validateFields();
-
+    console.log(nextFields)
     this.setState({ fields: nextFields }, () => {
       this.props.onSubmit(this.state.fields);
 

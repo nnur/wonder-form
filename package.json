@@ -19,6 +19,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
