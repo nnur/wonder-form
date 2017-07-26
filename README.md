@@ -6,8 +6,8 @@
 <a href="https://travis-ci.org/nnur/wonder-form" target="\_parent">
   <img alt="" src="https://travis-ci.org/nnur/wonder-form.svg?branch=master" />
 </a>
-<a href="https://npmjs.com/package/react-form" target="\_parent">
-  <img alt="" src="https://img.shields.io/npm/dm/react-form.svg" />
+<a href="https://npmjs.com/package/wonder-form" target="\_parent">
+  <img alt="" src="https://img.shields.io/npm/dm/wonder-form.svg" />
 </a>
 <a href="https://github.com/tannerlinsley/react-form" target="\_parent">
   <img alt="" src="https://img.shields.io/github/stars/tannerlinsley/react-form.svg?style=social&label=Star" />
