@@ -10,6 +10,7 @@
     "lib",
     "umd"
   ],
+  "github": "https://github.com/nnur/wonder-form",
   "scripts": {
     "prebuild": "mv .babelrc ._babelrc",
     "build": "nwb build-react-component",
